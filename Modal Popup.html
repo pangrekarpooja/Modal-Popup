@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Modal Popup Window</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="interior">
+        <a class="btn" href="#open-modal">HTML Interview Question</a>
+      </div>
+    </div>
+    <div id="open-modal" class="modal-window">
+      <div>
+        <article class="modal-container">
+          <header class="modal-container-header">
+            <h1 class="modal-container-title">
+                HTML Interview Question
+            </h1>
+            <button class="icon-button" onclick="location.href='#';">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path fill="currentColor" d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z" />
+              </svg>
+            </button>
+          </header>
+          <section class="modal-container-body">
+            <h2> What is the ‘class’ attribute in HTML?</h2>
+
+            <p>The class attribute is used to specify the class name for an HTML element. Multiple elements in HTML can have the same class value. Also, it is mainly used to associate the styles written in the stylesheet with the HTML elements. </p>
+
+            <h3>When to use scripts in the head and when to use scripts in the body?</h3>
+
+            <p>If the scripts contain some event-triggered functions or jquery library then we should use them in the head section. If the script writes the content on the page or is not inside a function then it should be placed inside the body section at the bottom. In short, follow below three points: </p>
+
+            <p>Cur igitur easdem res, inquam, Peripateticis dicentibus verbum nullum est, quod non intellegatur? Primum in nostrane potestate est, quid meminerimus? Eam tum adesse, cum dolor omnis absit; Quodsi ipsam honestatem undique pertectam atque absolutam. Aliam vero vim voluptatis esse,  </p>
+
+            <h3>inline and block elements in HTML5?</h3>
+
+            <p>HTML elements which do not have closing tags or do not need to be closed are Void elements. For Example </p>
+             </p>
+             <p>Block elements start on a new line and consume the full width of the page available.</p>
+
+            <h3>What are void elements in HTML?.</h3>
+
+            <p>HTML elements which do not have closing tags or do not need to be closed are Void elements. For Example <br/>, <img/>, <hr/>  </p>
+
+            <h2>What are tags and attributes in HTML?</h2>
+
+            <p>Tags are the primary component of the HTML that defines how the content will be structured/ formatted, whereas Attributes are used along with the HTML tags to define the characteristics of the element. For example, <p align=” center”> How to specify the metadata in HTML5?</p>To specify we can use <meta> tag which is a void tag,i.e., it does not have a closing tag. Some of the attributes used with meta tags are name, content, http-equiv, etc. The below image tells how to specify the metadata.  </p>
+            <h3> Is drag and drop possible using HTML5 and how?</h3>
+            <p>Yes, in HTML5 we can drag and drop an element. This can be achieved using the drag and drop-related events to be used with the element which we want to drag and drop</p>
+            <h2>. Explain the concept of web storage in HTML5.</h2>
+            <p>This web storage helps in storing some of the static data in the local storage of the browser so that we do not need to fetch it from the server every time we need it. There is a size limit based on different browsers. This helps in decreasing the load time and a smooth user experience. There are two types of web storage that are used to store data locally in HTML5:</p>
+          </section>
+          <footer class="modal-container-footer">
+            <button class="button is-ghost">Decline</button>
+            <button class="button is-primary">Accept</button>
+          </footer>
+        </article>
+    </div>
+    </div>
+  </body>
+</html>
